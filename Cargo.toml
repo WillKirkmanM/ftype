@@ -1,0 +1,8 @@
+[package]
+name = "ftype"
+version = "0.1.0"
+edition = "2024"
+description = "The Ftype Command Inspects Saved Windows File Type Handlers and Compares Their Open Commands to Reveal Added, Removed, or Changed Associations"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
